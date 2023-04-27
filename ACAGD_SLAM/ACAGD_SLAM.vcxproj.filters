@@ -18,5 +18,22 @@
     <ClCompile Include="ACAGD_SLAM.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="ch5_StereoFlow.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main_setting.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyIO.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="samples.hpp">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="ch5_StereoFlow.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
