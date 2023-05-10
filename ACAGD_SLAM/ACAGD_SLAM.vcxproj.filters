@@ -13,12 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="來源檔案\easy">
+      <UniqueIdentifier>{74899752-9704-4a99-9626-2941dadcaea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\imgui">
+      <UniqueIdentifier>{71e71df9-369b-43b9-9094-761091047165}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ACAGD_SLAM.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="ch5_StereoFlow.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyImGui.cpp">
+      <Filter>來源檔案\easy</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyIO.cpp">
+      <Filter>來源檔案\easy</Filter>
+    </ClCompile>
+    <ClCompile Include="EasyString.cpp">
+      <Filter>來源檔案\easy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_glfw.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\implot.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\implot_demo.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\implot_items.cpp">
+      <Filter>來源檔案\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="mainFlowUsingGlfwGlad.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>
@@ -33,6 +81,18 @@
       <Filter>來源檔案</Filter>
     </ClInclude>
     <ClInclude Include="ch5_StereoFlow.h">
+      <Filter>來源檔案</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyImGui.h">
+      <Filter>來源檔案\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyIO.h">
+      <Filter>來源檔案\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyString.h">
+      <Filter>來源檔案\easy</Filter>
+    </ClInclude>
+    <ClInclude Include="mainFlowUsingGlfwGlad.h">
       <Filter>來源檔案</Filter>
     </ClInclude>
   </ItemGroup>
