@@ -159,12 +159,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\include\imgui\imgui.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\include\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\include\imgui\implot.cpp" />
+    <ClCompile Include="..\include\imgui\implot_demo.cpp" />
+    <ClCompile Include="..\include\imgui\implot_items.cpp" />
     <ClCompile Include="ACAGD_SLAM.cpp" />
     <ClCompile Include="ch5_StereoFlow.cpp" />
+    <ClCompile Include="EasyImGui.cpp" />
+    <ClCompile Include="EasyIO.cpp" />
+    <ClCompile Include="EasyString.cpp" />
+    <ClCompile Include="mainFlowUsingGlfwGlad.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ch5_StereoFlow.h" />
+    <ClInclude Include="EasyImGui.h" />
+    <ClInclude Include="EasyIO.h" />
     <ClInclude Include="EasyIO.hpp" />
+    <ClInclude Include="EasyString.h" />
+    <ClInclude Include="mainFlowUsingGlfwGlad.h" />
     <ClInclude Include="main_setting.hpp" />
     <ClInclude Include="samples.hpp" />
   </ItemGroup>
